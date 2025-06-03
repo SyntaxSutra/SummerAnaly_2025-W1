@@ -1,45 +1,56 @@
 # SummerAnaly_2025-W1
 Week-1 Assignment – Data Analysis with Cars Dataset
-# 🚗 Summer Analytics 2025 – Week 1 Assignment
+# 🧠 Summer Analytics 2025 – Week 1 Assignment
 
-Welcome to my submission for **Week 1** of the Summer Analytics 2025 program!  
-This project explores the **Cars dataset** through data cleaning, analysis, and visualization.
-
----
-
-## 📂 Notebook
-
-- `SA2025_W1_Solution.ipynb`: Contains the full analysis – from loading the data to drawing final insights.
+This repository contains my solution for **Week 1** of the [Summer Analytics 2025](https://analytics.iitb.ac.in/) program, using the **Cars dataset**.
 
 ---
 
-## 🛠️ Libraries Used
+## 📄 Files Included
 
-- `pandas` for data handling
-- `numpy` for numerical operations
-- `matplotlib` and `seaborn` for visualizations
-
----
-
-## 📊 Key Tasks
-
-- Cleaned and preprocessed the dataset (handled missing values in `horsepower`)
-- Explored relationships between `mpg`, `weight`, `displacement`, and `model_year`
-- Created visualizations: histograms, scatter plots, trend lines
-- Analyzed car origins and their impact on fuel efficiency
+- `SA2025_WORKSHEET-1.ipynb` — Jupyter Notebook with complete data analysis and answers.
+- `Cars.csv` — Dataset used for analysis (if uploading with notebook).
 
 ---
 
-## 📌 Key Insights
+## 🛠 Tools & Libraries Used
 
-- Fuel efficiency improved significantly over the years (1970–1982)
-- Heavier and more powerful cars tend to have lower MPG
-- Japanese cars lead in average fuel efficiency
-- Correlation analysis revealed strong links between engine size, weight, and fuel consumption
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
 ---
 
-## 📚 Acknowledgement
+## 📊 Topics Covered
 
-This assignment is part of the [Summer Analytics 2025](https://analytics.iitb.ac.in/) learning series by IIT Bombay.
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Conditional Filtering
+- GroupBy & Aggregation
+- Visualization (line plots, scatter plots)
+- Statistical Analysis (mean, standard deviation)
+- Custom metrics (horsepower-to-weight ratio)
 
+---
+
+## ✅ Highlights
+
+- Identified most fuel-efficient and consistent car models
+- Visualized MPG trends by year and origin
+- Calculated custom metrics to extract insights
+
+---
+
+## 📌 Instructions
+
+To run the notebook locally:
+
+1. Clone the repository
+2. Open `SA2025_WORKSHEET-1.ipynb` in Jupyter Notebook / JupyterLab
+3. Make sure `Cars.csv` is in the same directory
+
+---
+
+📬 Developed as part of the **Summer Analytics 2025** program by **IIT Guwahati Analytics Club**.
